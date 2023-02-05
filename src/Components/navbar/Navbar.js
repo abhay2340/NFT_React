@@ -28,12 +28,10 @@ function Navbar() {
 export default Navbar;
 
 const NavbarWrap = styled.div`
-
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-// height:100px;
 padding: 20px 50px;
 `;
 const Left = styled.div`
@@ -73,7 +71,7 @@ gap: 12px;
 width: 152px;
 height: 60px;
 
-background: #A259FF;
+background: #04aaa5;
 border-radius: 20px;
 span{
   color:white;
